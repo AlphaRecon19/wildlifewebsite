@@ -40,7 +40,7 @@ else
         <div class="navbar-header">
           <a class="navbar-brand" href="/?page=home">Home</a>
           <a class="navbar-brand" href="/?page=adopt">Adopt A Lion</a>
-          <a class="navbar-brand" href="/?page=contact">Contact US</a>
+          <a class="navbar-brand" href="/?page=contact">Contact Us</a>
         </div><!-- /.navbar-header -->
       </div><!-- /.container -->
     </div><!-- Finish the nav bar -->
