@@ -1,0 +1,2 @@
+ErrorDocument 404 /?page=404
+ErrorDocument 403 /?page=403
