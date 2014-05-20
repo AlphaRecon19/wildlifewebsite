@@ -25,11 +25,11 @@
 // Main Configiration
 //-----------------------------------------------------
 
-$site_title          = "Wildlife Park"; #Change this to your zoos name - CHANGE THIS
-$header_title        = "Wildlife Park"; #Change this to what you would like to appear on the top of every page - CHANGE THIS
-$header_description  = "The Wildlife Park for the 21st century."; #Change this to what you would like to appear below the header - CHANGE THIS
-$header_topcolour    = "#000"; #This is the top colour of the header - CHANGE THIS
-$header_bottomcolour = "#FF9900"; #This is the bottom colour of the header - CHANGE THIS
+$site_title          = "Wildlife Of the World"; #Change this to your zoos name - CHANGE THIS
+$header_title        = "Wildlife Of the World"; #Change this to what you would like to appear on the top of every page - CHANGE THIS
+$header_description  = "We're Wildlife, Widlife of the World"; #Change this to what you would like to appear below the header - CHANGE THIS
+$header_topcolour    = "#778899"; #This is the top colour of the header - CHANGE THIS
+$header_bottomcolour = "#1E90FF"; #This is the bottom colour of the header - CHANGE THIS
 $config_showfooter   = TRUE; #To disable the footer at the bottom with my tag, set to FALSE 
 
 
@@ -51,7 +51,7 @@ $page_404_text  = "<h3>That page could not be displayed. Instead, here is a pict
 
 $page_home_title = "Welcome"; #This is the title of the page
 $page_home_text  = "
-		<p class='lead'><img src='http://i.imgur.com/BkSYj21.jpg' class='pargraphimageleft'/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<p class='lead'><img src='http://i.imgur.com/BkSYj21.jpg' class='pargraphimageleft'/>Welcome to our website here we care for all animals unlike the capital pig m.</p>
 		
 		<p class='lead'><img src='http://i.imgur.com/87uphWD.jpg' class='pargraphimageright'/>
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -62,8 +62,35 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 /* /pages/adopt.php - This is the page that is rendered if requested by ?page=adopt */
 //----------------------------------------------------------------------------------------------------------
 
-$page_adopt_title = "Adopt a Lion Toady"; #This is the title of the page
+$page_adopt_title = "Adopt a Lion Today"; #This is the title of the page
 $page_adopt_text  = "
+		<p class='lead'><img src='http://i.imgur.com/BkSYj21.jpg' class='pargraphimageleft'/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		
+		<p class='lead'><img src='http://i.imgur.com/87uphWD.jpg' class='pargraphimageright'/>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		"; #This is the main html of the page
+
+
+
+/* /pages/aboutus.php - This is the page that is rendered if requested by ?page=adopt */
+//----------------------------------------------------------------------------------------------------------
+
+$aboutus_title = "Adopt a Lion Today"; #This is the title of the page
+$aboutus_text  = "
+		<p class='lead'><img src='http://i.imgur.com/BkSYj21.jpg' class='pargraphimageleft'/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		
+		<p class='lead'><img src='http://i.imgur.com/87uphWD.jpg' class='pargraphimageright'/>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		"; #This is the main html of the page
+		
+		
+		
+		
+/* /pages/aboutus.php - This is the page that is rendered if requested by ?page=adopt */
+//----------------------------------------------------------------------------------------------------------
+
+$merchandise_title = "Adopt a Lion Today"; #This is the title of the page
+$merchandise_text  = "
 		<p class='lead'><img src='http://i.imgur.com/BkSYj21.jpg' class='pargraphimageleft'/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 		
 		<p class='lead'><img src='http://i.imgur.com/87uphWD.jpg' class='pargraphimageright'/>
@@ -127,5 +154,5 @@ $page_contact_text        = "
 
 $page_success_title = "Thank You"; #This is the title of the page
 $page_success_text  = "
-		<p class='lead'>Your message has been sent as requested. <a href='/?page=home'>Retun Home</a></p>
+		<p class='lead'>Your message has been sent as requested. <a href='/?page=home'>Return Home</a></p>
 		"; #This is the main html of the page where the other contact infomation should go
